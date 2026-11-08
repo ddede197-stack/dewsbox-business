@@ -1,0 +1,24 @@
+DEWSBOX BUSINESS — PAKET PWA (TAHAP PERSIAPAN)
+
+ISI PAKET
+- index.html: aplikasi utama
+- manifest.webmanifest: identitas PWA
+- sw.js: cache aplikasi untuk akses offline setelah kunjungan online pertama
+- icons/: ikon 192x192 dan 512x512
+
+PENTING
+1. Ekstrak ZIP, lalu unggah SELURUH isi folder ini ke hosting HTTPS.
+2. Pastikan index.html, manifest.webmanifest, sw.js, dan folder icons berada pada lokasi yang sama.
+3. Buka URL HTTPS aplikasi dengan Chrome Android saat online sekali, lalu muat ulang.
+4. Untuk instalasi, gunakan menu Chrome > Tambahkan ke layar utama / Install app jika tersedia.
+5. Setelah situs live, masukkan URL situs ke PWABuilder untuk membuat paket Android.
+6. Untuk Google Play, pilih paket Google Play/AAB dan selesaikan konfigurasi Digital Asset Links sesuai fingerprint signing key.
+
+DATA DAN PRIVASI
+- Data aplikasi disimpan di localStorage browser pada perangkat yang sama.
+- Belum ada akun pengguna, server backend, atau sinkronisasi cloud.
+- Data lokal tidak otomatis berpindah antarperangkat. Gunakan fitur cadangan aplikasi secara berkala jika tersedia.
+- Jangan unggah data pelanggan/keuangan nyata ke hosting; hosting hanya berisi kode aplikasi.
+
+CATATAN
+Paket ini belum berupa APK/AAB. APK/AAB baru dapat dibuat setelah aplikasi dipublikasikan melalui HTTPS dan dimasukkan ke proses packaging Android.

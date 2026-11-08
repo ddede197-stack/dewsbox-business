@@ -1,0 +1,16 @@
+{
+  "id": "./",
+  "name": "DEWSBOX BUSINESS",
+  "short_name": "DEWSBOX",
+  "description": "Aplikasi pengelolaan usaha, keuangan, stok, karyawan, dan administrasi.",
+  "lang": "id-ID",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#f7faf9",
+  "theme_color": "#0f766e",
+  "icons": [
+    {"src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any"},
+    {"src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any maskable"}
+  ]
+}
