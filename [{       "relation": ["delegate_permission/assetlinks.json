@@ -1,0 +1,8 @@
+[{
+      "relation": ["delegate_permission/common.handle_all_urls"],
+      "target": {
+        "namespace": "android_app",
+        "package_name": "com.dewsbox.business",
+        "sha256_cert_fingerprints": ["E1:D1:A8:E9:5C:B0:84:A0:0D:FD:19:E4:F7:51:9A:92:2C:01:57:06:62:63:1F:8A:F8:6F:3A:D7:83:11:E8:33"]
+      }
+    }]
